@@ -1,0 +1,12 @@
+\emptyframetitle
+
+  Git is extremely powerful, but also very complex.\\[0.5cm]
+
+  Excellent \textbf{Git tutorial materials} are available on the Software Carpentry website:\\[0.5cm]
+  \textbf{\url{http://swcarpentry.github.io/git-novice}}\\[0.5cm]
+
+  \begin{figure}[h]
+    \includegraphics[width=0.95\textwidth]{sec1/software-carpentry.png}
+  \end{figure}
+
+

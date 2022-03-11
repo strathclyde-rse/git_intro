@@ -1,0 +1,110 @@
+\headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
+\headcommand {\beamer@framepages {1}{1}}
+\headcommand {\slideentry {0}{0}{2}{2/2}{}{0}}
+\headcommand {\beamer@framepages {2}{2}}
+\headcommand {\beamer@sectionpages {1}{2}}
+\headcommand {\beamer@subsectionpages {1}{2}}
+\headcommand {\sectionentry {1}{Introduction to Git}{3}{Introduction to Git}{0}}
+\headcommand {\slideentry {1}{0}{1}{3/3}{}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\beamer@subsectionpages {3}{3}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Automated Version Control}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Automated Version Control}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Automated Version Control}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\beamer@subsectionpages {4}{5}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{6}{Setting Up Git}}
+\headcommand {\slideentry {1}{2}{1}{6/6}{Setting Up Git}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{2}{2}{7/7}{Setting Up Git}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{2}{3}{8/8}{Setting Up Git}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionpages {6}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{9}{Creating A Git Repository}}
+\headcommand {\slideentry {1}{3}{1}{9/9}{Creating A Git Repository}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@subsectionpages {9}{9}}
+\headcommand {\beamer@subsectionentry {0}{1}{4}{10}{Tracking Changes}}
+\headcommand {\slideentry {1}{4}{1}{10/10}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\slideentry {1}{4}{2}{11/11}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {11}{11}}
+\headcommand {\slideentry {1}{4}{3}{12/12}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {1}{4}{4}{13/13}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\slideentry {1}{4}{5}{14/14}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {1}{4}{6}{15/15}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\slideentry {1}{4}{7}{16/16}{Tracking Changes}{0}}
+\headcommand {\beamer@framepages {16}{16}}
+\headcommand {\beamer@subsectionpages {10}{16}}
+\headcommand {\beamer@subsectionentry {0}{1}{5}{17}{Exploring History}}
+\headcommand {\slideentry {1}{5}{1}{17/17}{Exploring History}{0}}
+\headcommand {\beamer@framepages {17}{17}}
+\headcommand {\slideentry {1}{5}{2}{18/18}{Exploring History}{0}}
+\headcommand {\beamer@framepages {18}{18}}
+\headcommand {\slideentry {1}{5}{3}{19/19}{Exploring History}{0}}
+\headcommand {\beamer@framepages {19}{19}}
+\headcommand {\slideentry {1}{5}{4}{20/20}{Exploring History}{0}}
+\headcommand {\beamer@framepages {20}{20}}
+\headcommand {\slideentry {1}{5}{5}{21/21}{Exploring History}{0}}
+\headcommand {\beamer@framepages {21}{21}}
+\headcommand {\slideentry {1}{5}{6}{22/22}{Exploring History}{0}}
+\headcommand {\beamer@framepages {22}{22}}
+\headcommand {\slideentry {1}{5}{7}{23/23}{Exploring History}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@subsectionpages {17}{23}}
+\headcommand {\beamer@subsectionentry {0}{1}{6}{24}{Creating Remote Repositories on GitHub}}
+\headcommand {\slideentry {1}{6}{1}{24/24}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {1}{6}{2}{25/25}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {25}{25}}
+\headcommand {\slideentry {1}{6}{3}{26/26}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {26}{26}}
+\headcommand {\slideentry {1}{6}{4}{27/27}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {27}{27}}
+\headcommand {\slideentry {1}{6}{5}{28/28}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {28}{28}}
+\headcommand {\slideentry {1}{6}{6}{29/29}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {29}{29}}
+\headcommand {\slideentry {1}{6}{7}{30/30}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\slideentry {1}{6}{8}{31/31}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {31}{31}}
+\headcommand {\slideentry {1}{6}{9}{32/32}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {32}{32}}
+\headcommand {\slideentry {1}{6}{10}{33/33}{Creating Remote Repositories on GitHub}{0}}
+\headcommand {\beamer@framepages {33}{33}}
+\headcommand {\beamer@subsectionpages {24}{33}}
+\headcommand {\beamer@subsectionentry {0}{1}{7}{34}{Collaborating On GitHub}}
+\headcommand {\slideentry {1}{7}{1}{34/34}{Collaborating On GitHub}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\slideentry {1}{7}{2}{35/35}{Collaborating On GitHub}{0}}
+\headcommand {\beamer@framepages {35}{35}}
+\headcommand {\slideentry {1}{7}{3}{36/36}{Collaborating On GitHub}{0}}
+\headcommand {\beamer@framepages {36}{36}}
+\headcommand {\beamer@subsectionpages {34}{36}}
+\headcommand {\beamer@subsectionentry {0}{1}{8}{37}{Conflicts}}
+\headcommand {\slideentry {1}{8}{1}{37/37}{Conflicts}{0}}
+\headcommand {\beamer@framepages {37}{37}}
+\headcommand {\slideentry {1}{8}{2}{38/38}{Conflicts}{0}}
+\headcommand {\beamer@framepages {38}{38}}
+\headcommand {\slideentry {1}{8}{3}{39/39}{Conflicts}{0}}
+\headcommand {\beamer@framepages {39}{39}}
+\headcommand {\slideentry {1}{8}{4}{40/40}{Conflicts}{0}}
+\headcommand {\beamer@framepages {40}{40}}
+\headcommand {\slideentry {1}{8}{5}{41/41}{Conflicts}{0}}
+\headcommand {\beamer@framepages {41}{41}}
+\headcommand {\slideentry {1}{8}{6}{42/42}{Conflicts}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {1}{8}{7}{43/43}{Conflicts}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\beamer@partpages {1}{43}}
+\headcommand {\beamer@subsectionpages {37}{43}}
+\headcommand {\beamer@sectionpages {3}{43}}
+\headcommand {\beamer@documentpages {43}}
+\headcommand {\gdef \inserttotalframenumber {43}}

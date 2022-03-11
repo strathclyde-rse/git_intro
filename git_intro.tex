@@ -1,0 +1,131 @@
+% ----------------------------------------------------------------------
+% Date: April 4th, 2016
+% Author: Roberto Metere
+% Project: Beamer template for Strathclyde University
+%
+% Copyright (C) 2016 Roberto Metere
+% ----------------------------------------------------------------------
+%
+
+% examples on/off
+\newif\ifexamples
+%\examplestrue
+
+% General settings
+\documentclass[slidestop,compress,9pt]{beamer}
+\usepackage[UKenglish]{babel}
+\usepackage[UKenglish]{isodate}
+\usepackage[utf8]{inputenc}
+% \usepackage{strathclyde}
+% \usepackage[tech, colour]{strathclyde}
+\usepackage[main, xcolor, strathbg]{strathclyde}
+% \usepackage[eng]{strathclyde}
+% \usepackage[hass]{strathclyde}
+% \usepackage[bus]{strathclyde}
+\usepackage{hyperref}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks=true,allcolors=links}
+
+% Code listings and pseudocode
+\usepackage{listings}
+\usepackage{algpseudocode}
+\usepackage{algorithm}
+
+% Mathematical formulas
+\usepackage{mathtools}
+\usepackage{bm}
+\setcounter{MaxMatrixCols}{20}
+
+% Graphics and figures
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\setbeamertemplate{caption}[numbered]
+\usepackage{fancybox}
+\usepackage{pgfplots}
+
+% Tikz
+\usepackage{tikz}
+\usepackage{tikz-3dplot}
+\usetikzlibrary{shapes.geometric, arrows}
+
+% For redefinition of texttt
+%\let\textttorig\texttt
+\usepackage[scaled=1.0]{couriers}
+
+% Numbered sections
+\setbeamertemplate{section in toc}[sections numbered]
+\setbeamertemplate{subsection in toc}[subsections numbered]
+\setbeamertemplate{subsubsection in toc}[subsubsections numbered]
+
+% Listings
+\definecolor{cident}{rgb}{0.0,0.0,0.0}
+\definecolor{ckeyw}{rgb}{0,0,0.8}
+\definecolor{ccomm}{rgb}{0,0.8,0}
+\definecolor{cstr}{rgb}{0.8,0,0}
+\definecolor{myyellow}{rgb}{0.99,0.76, 0.0}
+\definecolor{mymagenta}{rgb}{1.0, 0.0, 1.0}
+
+\lstset{language=[LaTeX]{TeX},
+  basicstyle=\normalsize\ttfamily,
+  keywordstyle=\color{ckeyw}\bfseries,
+  identifierstyle=\color{cident}\bfseries,
+  commentstyle=\color{ccomm},
+  stringstyle=\color{cstr},
+  showstringspaces=false,
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=2,
+  mathescape = false,
+  columns=flexible,
+  escapeinside={<@}{@>}
+%   numbers=left,
+%   stepnumber=1,
+%   firstnumber=1,
+%   numberfirstline=true,
+  }
+
+\title[Strathclyde Research Software Engineers]{\textbf{Git}}
+\subtitle{An Introduction to the Version Control System }
+\author[Oliver Henrich]{Oliver Henrich \\ \small Email: \href{mailto:oliver.henrich@strath.ac.uk}{oliver.henrich@strath.ac.uk}}
+\institute{\textbf{Strathclyde Research Software Engineers}}
+\date{\today}
+%\strathsetidentity{Department of}{Physics}
+
+\setlength{\frametitlemargin}{1mm}
+
+\begin{document}
+
+
+
+
+%\renewcommand<>{\texttt}[1]{%
+%  \only#2{\textttorig{#1}}%
+%}
+
+\renewcommand<>{\texttt}{\only#1{\beameroriginal{\texttt}}}
+
+% ==============================================================
+% --- Welcome frame
+% ==============================================================
+\begin{frame}[plain]
+\maketitle
+\end{frame}
+
+% ==============================================================
+% --- TOC
+% ==============================================================
+
+\begin{frame}[allowframebreaks,plain]
+\emptyframetitle
+{\Large Table of Contents}
+\tableofcontents
+
+\end{frame}
+
+% ==============================================================
+% --- Content
+% ==============================================================
+
+\input{section1.tex}
+
+\end{document}
