@@ -2,6 +2,7 @@
 % --- Git
 % ==============================================================
 \section{Automated Version Control}\hypertarget{sec1}{}
+\setcounter{framenumber}{0}
 
 \begin{frame}[fragile]
 \frametitle{Why version control?}
@@ -95,14 +96,22 @@ Example: determine buggy version via bisection\\[7pt]
 
 \textbf{Manually}
 \begin{enumerate}
-\item Define (latest) buggy version \texttt{B}
-\item Find some working version \texttt{W}
-\item Check out intermediate version \texttt{I} half-way between \texttt{B} and \texttt{W}, build, run\label{int_man}
-\begin{itemize}
-\item working? $\Rightarrow$ \texttt{W = I}
-\item not working? $\Rightarrow$ \texttt{B = I}
-\end{itemize}
-\item Goto \ref{int_man}
+  \item Define (latest) buggy version \texttt{B}
+  \item Find some working version \texttt{W}
+  \item Check out intermediate version \texttt{I} half-way between \texttt{B} and \texttt{W}, build, run\label{int_man}
+  \begin{itemize}
+    \normalsize
+    \item Working? $\Rightarrow$ \texttt{W = I}
+    \item Not working? $\Rightarrow$ \texttt{B = I}
+  \end{itemize}
+  \item Goto \ref{int_man}
+  \item Identfied buggy version?
+  \begin{itemize}
+    \normalsize
+    \item Identify change that causes the bug
+    \item Do \texttt{diff} on \textbf{all} source code files
+    \item \textbf{Can take hours, days or weeks} depending on code size and differences
+  \end{itemize}
 \end{enumerate}
 
 \end{frame}
@@ -114,15 +123,22 @@ Another example: determine buggy version via bisection\\[7pt]
 
 \textbf{Automated}
 \begin{enumerate}
-\item Start bisect wizzard \texttt{git bisect start}
-\item Define buggy version \texttt{git bisect bad someCommitID}
-\item Define working version \texttt{git bisect good anotherCommitID}
-\item Git checks out intermediate version, build, run\label{int_aut}
-\begin{itemize}
-\item working? $\Rightarrow$ \texttt{git bisect good}
-\item not working? $\Rightarrow$ \texttt{git bisect bad}
-\end{itemize}
-\item Git goes to \ref{int_aut}
+  \item Start bisect wizzard with \texttt{git bisect start}
+  \item Define buggy version with \texttt{git bisect bad someCommitID}
+  \item Define working version with \texttt{git bisect good anotherCommitID}
+  \item Git checks out intermediate version, build, run\label{int_aut}
+  \begin{itemize}
+    \normalsize
+    \item Working? $\Rightarrow$ \texttt{git bisect good}
+    \item Not working? $\Rightarrow$ \texttt{git bisect bad}
+  \end{itemize}
+  \item Git goes to \ref{int_aut}
+  \item Identfied buggy version?
+  \begin{itemize}
+    \normalsize
+    \item \textbf{Read associated change}
+    \item \textbf{Takes seconds!}
+  \end{itemize}
 \end{enumerate}
 
 
