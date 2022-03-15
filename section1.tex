@@ -13,19 +13,19 @@
       Problems
       \begin{itemize}
         \small
-        \item Multiple, nearly identical versions of the same document
-        \item Tracking changes is not an option for source code
-        \item No protection against accidental deletion
+        \item \textbf{Multiple, nearly identical versions} of the same document
+        \item \textbf{Tracking changes} is \textbf{not an option} for source code
+        \item \textbf{No protection} against accidental deletion
       \end{itemize}
       \vspace{0.15cm}
       Version control systems 
       \begin{itemize}
         \small
-        \item {\bf start} with a base version of the document
-        \item {\bf record} changes you make each step of the way
-        \item can {\bf revert} to any previous versions if necessary
-        \item {\bf never lose} a previous state of your document
-        \item allow many people to {\bf work in parallel}
+        \item \textbf{start with a base version} of the document
+        \item \textbf{record changes} you make each step of the way
+        \item \textbf{can revert} to any previous versions if necessary
+        \item \textbf{never lose} a previous state of your document
+        \item allow many people to \textbf{work in parallel}
       \end{itemize}
     \end{column}
 
@@ -71,12 +71,12 @@
 \begin{frame}[fragile]
 \emptyframetitle
 
-\textbf{Further reasons} for using Git
+\textbf{Reasons} for using Git\\[10pt]
 
 \begin{itemize}
 \setlength\itemsep{10pt}
+  \item \textbf{Collaboration} as everyone uses Git
   \item \textbf{Sequence of clean, logical patches}, not uncorrelated random changes
-  \item Git as starting point for \textbf{automated unit and regression tests}, e.g. via Gitlab, GitHub
   \item Git for \textbf{reproducing results}, not only source code
   \begin{itemize}
     \normalsize
@@ -85,32 +85,32 @@
     \item anything in ASCII
     \item \LaTeX source code
   \end{itemize}
-  \item \textbf{Collaboration} as everyone uses Git
+  \item Git as starting point for \textbf{automated unit and regression tests}, e.g. via Gitlab, GitHub
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]
 \emptyframetitle
 
-Example: determine buggy version via bisection\\[7pt]
+Example: Find bug via bisection\\[7pt]
 
 \textbf{Manually}
 \begin{enumerate}
-  \item Define (latest) buggy version \texttt{B}
-  \item Find some working version \texttt{W}
-  \item Check out intermediate version \texttt{I} half-way between \texttt{B} and \texttt{W}, build, run\label{int_man}
+  \item Define (latest) buggy version \textbf{\texttt{B}}
+  \item Find some working version \textbf{\texttt{W}}
+  \item Check out intermediate version \textbf{\texttt{I}} half-way between \textbf{\texttt{B}} and \textbf{\texttt{W}}, build, run\label{int_man}
   \begin{itemize}
     \normalsize
-    \item Working? $\Rightarrow$ \texttt{W = I}
-    \item Not working? $\Rightarrow$ \texttt{B = I}
+    \item Working? $\Rightarrow$ \textbf{\texttt{W}} = \textbf{\texttt{I}}
+    \item Not working? $\Rightarrow$ \textbf{\texttt{B}} = \textbf{\texttt{I}}
   \end{itemize}
   \item Goto \ref{int_man}
   \item Identfied buggy version?
   \begin{itemize}
     \normalsize
-    \item Identify change that causes the bug
-    \item Do \texttt{diff} on \textbf{all} source code files
-    \item \textbf{Can take hours, days or weeks} depending on code size and differences
+    \item Identify change that causes the bug:\\
+    Do \textbf{\texttt{diff}} on \textbf{all} source code files
+    \item \textbf{Can take hours, days or weeks} depending on code size and code differences between versions
   \end{itemize}
 \end{enumerate}
 
@@ -119,18 +119,18 @@ Example: determine buggy version via bisection\\[7pt]
 \begin{frame}[fragile]
 \emptyframetitle
 
-Another example: determine buggy version via bisection\\[7pt]
+Example: Find bug via bisection\\[7pt]
 
 \textbf{Automated}
 \begin{enumerate}
-  \item Start bisect wizzard with \texttt{git bisect start}
-  \item Define buggy version with \texttt{git bisect bad someCommitID}
-  \item Define working version with \texttt{git bisect good anotherCommitID}
+  \item Start bisect wizzard with \textbf{\texttt{git bisect start}}
+  \item Define buggy version with \textbf{\texttt{git bisect bad someCommitID}}
+  \item Define working version with \textbf{\texttt{git bisect good anotherCommitID}}
   \item Git checks out intermediate version, build, run\label{int_aut}
   \begin{itemize}
     \normalsize
-    \item Working? $\Rightarrow$ \texttt{git bisect good}
-    \item Not working? $\Rightarrow$ \texttt{git bisect bad}
+    \item Working? $\Rightarrow$ \textbf{\texttt{git bisect good}}
+    \item Not working? $\Rightarrow$ \textbf{\texttt{git bisect bad}}
   \end{itemize}
   \item Git goes to \ref{int_aut}
   \item Identfied buggy version?
